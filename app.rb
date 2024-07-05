@@ -15,5 +15,5 @@ get("/process_roll") do
      @rolls.push(rand(1...@num_sides))
   end
 
-  erb(:results)
-  end
+erb(:results)
+end
